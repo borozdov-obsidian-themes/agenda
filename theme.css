@@ -226,6 +226,8 @@ body {
   --ribbon-background-collapsed: var(--canvas);
   --status-bar-background: var(--surface);
   --nav-item-background-hover: var(--hover);
+  --nav-item-background-active: var(--tag-fill);
+  --nav-item-color-active: var(--red-text);
   --nav-item-background-selected: var(--tag-fill);
   --nav-item-color-selected: var(--red-text);
   --nav-indentation-guide-color: var(--hairline);
