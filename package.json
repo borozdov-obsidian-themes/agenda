@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-agenda",
+  "private": true,
+  "description": "A sunlit desk with a paper planner: warm off-white paper, ink notes, round task checkboxes and one red pen for what you decide.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
